@@ -1,0 +1,39 @@
+h1 {
+	position: relative;
+	color: #66b2ff;
+	text-align: center;
+}
+#bio {
+	text-align: left;
+}
+#top-container {
+	text-align: center;
+	background-color: #e0e0d1;
+}
+#bottom-container {
+	margin-left: 150px;
+
+}
+.employer {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+#pic {
+	display: inline-block;
+	width: 300px;
+}
+#contact {
+	display: inline-block;
+	vertical-align: top;
+	border: #66b2ff solid 2px;
+	background-color: #cceeff;
+	text-align: left;
+	padding-right: 15px;
+}
+
+#bio {
+	display: inline-block;
+	width: 35%;
+	margin: 10px;
+	vertical-align: top;
+}
