@@ -1,0 +1,49 @@
+<hmtl>
+<head>
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script language="Javascript">
+function ShowPicture(id,Source) {
+if (Source=="1"){
+if (document.layers) document.layers[''+id+''].visibility = "show"
+else if (document.all) document.all[''+id+''].style.visibility = "visible"
+else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+}
+else
+if (Source=="0"){
+if (document.layers) document.layers[''+id+''].visibility = "hide"
+else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+}
+}
+</script>
+</head>
+<body>
+	<h1>Provo Recreation</h1>
+	<p>Click on the pins to check out the great activities avaliable throughout the city!</p>
+  	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin1" onMouseOver="ShowPicture('Style',1)" onMouseOut="ShowPicture('Style',0)">
+  	<p id="Style"><img src="Mt timp.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin2" onMouseOver="ShowPicture('Style2',1)" onMouseOut="ShowPicture('Style2',0)">
+	<p id="Style2"><img src="Tubing Provo River.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin3" onMouseOver="ShowPicture('Style3',1)" onMouseOut="ShowPicture('Style3',0)">
+  	<p id="Style3"><img src="BYU.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin4" onMouseOver="ShowPicture('Style4',1)" onMouseOut="ShowPicture('Style4',0)">
+	<p id="Style4"><img src="Provo Temple.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin5" onMouseOver="ShowPicture('Style5',1)" onMouseOut="ShowPicture('Style5',0)">
+  	<p id="Style5"><img src="Rock Canyon.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin6" onMouseOver="ShowPicture('Style6',1)" onMouseOut="ShowPicture('Style6',0)">
+	<p id="Style6"><img src="Y mount.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin7" onMouseOver="ShowPicture('Style7',1)" onMouseOut="ShowPicture('Style7',0)">
+  	<p id="Style7"><img src="7-Peaks.jpg" width = 300px ></p>
+
+	<img src="http://www.clipartbest.com/cliparts/4Tb/4Bb/4Tb4Bbpjc.png" class="pin8" onMouseOver="ShowPicture('Style8',1)" onMouseOut="ShowPicture('Style8',0)">
+	<p id="Style8"><img src="Downtown Provo.jpg" width = 300px ></p>
+
+	</div>
+</body>
+</html>

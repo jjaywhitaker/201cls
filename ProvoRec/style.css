@@ -1,0 +1,149 @@
+body {
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/99/87/79/998779fbe6eb789c3a6a858b0153e4e3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  text-align:center;
+}
+h1 { 
+  color: white;/*#d54d7b;*/ 
+  font-family: "Great Vibes", cursive; 
+  font-size: 165px; line-height: 160px; 
+  font-weight: normal; 
+  margin-bottom: 0px; margin-top: 40px; 
+  text-align: center; text-shadow: 0 1px 1px #fff; 
+}
+p { 
+  color: #7a7c7f; 
+  font-size: 29px; 
+  font-family: "Libre Baskerville", serif; 
+  line-height: 45px; text-align: center; 
+  text-shadow: 0 1px 1px #fff; 
+  padding-top: 20px; 
+}
+
+.pin1 { /*Mt.Timp*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 62%;
+    left: 2%;
+
+  }
+.pin2 { /*Provo Canyon*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 72%;
+    left: 10%;
+  }
+.pin3 { /*BYU Campus*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 80%;
+    left: 32%;
+  }
+.pin4 { /*Provo Temple*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 77%;
+    left: 29%;
+  }
+.pin5 { /*Rock Canyon*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 62%;
+    left: 50%;
+  }
+.pin6 { /*YMount*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 54%;
+    left: 85%;
+  }
+.pin7 { /*7Peaks*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 78%;
+    left: 97%;
+  }
+.pin8 { /*Downtown*/
+    position: absolute;
+    width: 30px;
+    height: auto;
+    top: 90%;
+    left: 70%;
+  }
+#Style{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:52%;
+    	left: 5%;
+	z-index: 5;
+}
+#Style2{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:40%;
+    	left: 13%;
+	z-index: 5;
+}
+#Style3{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:57%;
+    	left: 35%;
+	z-index: 5;
+}
+#Style4{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:60%;
+    	left: 32%;
+	z-index: 5;
+}
+#Style5{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:47%;
+    	left: 53%;
+	z-index: 5;
+}
+#Style6{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:44%;
+    	left: 61%;
+	z-index: 5;
+}
+#Style7{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:58%;
+    	left: 73%;
+	z-index: 5;
+}
+#Style8{
+	position:absolute; 
+	visibility:hidden;
+	padding:5px;
+	top:60%;
+    	left: 46%;
+	z-index: 5;
+}
