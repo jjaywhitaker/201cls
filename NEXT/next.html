@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "next.css">
+
+		<title>City Finder</title>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+			$(document).ready(function(){
+				$( "#cityfield" ).keyup(function() {
+				  $.getJSON("staticCity.txt",function(data) {
+				      $.getJSON("https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q=" + $('#cityfield').val(),function(data) {
+					    var everything;
+					    everything = "<ul>";
+					    $.each(data, function(i,item) {
+					      everything += "<li> "+data[i].city;
+					    });
+					    everything += "</ul>";
+					    $("#txtHint").html(everything);
+					  })
+					  .done(function() { console.log('getJSON request succeeded!'); })
+					  .fail(function(jqXHR, textStatus, errorThrown) { 
+					    console.log('getJSON request failed! ' + textStatus); 
+					    console.log("incoming "+jqXHR.responseText);
+					  })
+					  .always(function() { console.log('getJSON request ended!');
+					  })
+					  .complete(function() { console.log("complete"); });
+				   });
+			    	});
+				$("#button").click(function(e){
+					var value = $("#cityfield").val();
+					console.log(value);
+					e.preventDefault();
+					$("#dispcity").text(value);
+var myurl= "https://api.wunderground.com/api/b8bc9035970be4d1/geolookup/conditions/q/UT/";
+  myurl += value;
+  myurl += ".json";
+  console.log(myurl);
+  $.ajax({
+    url : myurl,
+    dataType : "jsonp",
+    success : function(parsed_json) {
+      var location = parsed_json['location']['city'];
+      var temp_string = parsed_json['current_observation']['temperature_string'];
+      var current_weather = parsed_json['current_observation']['weather'];
+      everything = "<ul>";
+      everything += "<li>Location: "+location;
+      everything += "<li>Temperature: "+temp_string;
+      everything += "<li>Weather: "+current_weather;
+      everything += "</ul>";
+      $("#weather").html(everything);
+    }
+  });
+				});				
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Utah Weather Finder</h1>
+		<div id = "center">
+		<form id = "myForm">
+			Enter A Utah City: <input type="text" id="cityfield" value=""><br>
+			Suggestion: <span id="txtHint">Empty</span>
+			<input id="button" type="submit" value="Submit">
+		</form>
+		<div id = "container">
+		<p>City</p>
+		<textarea id="dispcity">No City</textarea>
+		<p>Current Weather</p>
+		<div id="weather">No weather</div>
+		</div>
+		</div>
+	</body>
+</html>
