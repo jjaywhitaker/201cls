@@ -1,0 +1,119 @@
+/* General CSS */
+body {
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	margin-top: 0px;
+	color: #47659B;
+	text-indent: 17px;
+}
+
+
+/* AJAX Request Filters Section */
+span {
+	text-transform: uppercase;
+	padding: 5px 10px;
+	width: 100px;
+    display: inline-block;
+	background: #6F8DC3;
+	background: rgba(111, 141, 195, 0.2);
+	cursor: pointer;
+}
+
+span.active {
+	background: #6F8DC3;
+	background: rgba(111, 141, 195, 0.5);
+}
+
+div#filters {
+	margin-bottom: 30px;
+}
+
+
+/* Table Section */
+table {
+	margin: auto;
+	text-align: center;
+	max-width: 90%;
+}
+
+tbody {
+    border: 2px solid #5B4FA3;
+    border-collapse: collapse;
+}
+
+td, th {
+	padding: 10px 20px;
+}
+
+th {
+	font-weight: bold;
+}
+
+th.sortable {
+	cursor: pointer;
+}
+
+img.arrow {
+	top: 5px;
+    position: relative;
+    opacity: 0.2;
+}
+
+img.activeSort {
+	opacity: 1.0;
+}
+
+.pics {
+	height: 150px;
+	width: 100px;
+}
+
+
+/* About Section */
+#about {
+	margin: 20px;
+}
+
+#about p {
+	margin: 0px;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 650px) {
+	td, th {
+		padding: 5px 10px;
+	}
+	body {
+		margin: 15px 0px;
+	}
+	span {
+		margin-bottom: 4px;
+	}
+	.pics {
+		height: 75px;
+		width: 50px;
+	}
+	img.arrow {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	td:nth-child(5), th:nth-child(5) {
+		display: none;
+	}
+	body {
+		margin: 5px;
+	}
+	table {
+		max-width: 100%;
+	}
+}

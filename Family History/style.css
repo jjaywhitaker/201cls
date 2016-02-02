@@ -1,0 +1,27 @@
+html {
+	background: url(http://www.clipartbest.com/cliparts/jTx/oR5/jTxoR5r8c.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h2 {
+	text-align: center;
+	
+	background-color: rgba(217, 217, 217, .5);
+	border: #999999 solid 2px;
+	padding: 15px;
+
+}
+
+.forms {
+	position: relative;
+
+}
+
+#container {
+	background-color: rgba(217, 217, 217, .5);
+	border: #999999 solid 2px;
+	padding: 15px;
+}
