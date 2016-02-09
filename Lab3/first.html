@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <link rel="stylesheet" type="text/css" href="avatar.css">
+</head>
+<body>
+<div ng-app='app' ng-controller='mainCtrl'>
+<h1>KittenLovers Unite</h1>
+<h2>Create new user</h2>
+<form name='userForm' ng-submit='addNew(userForm)'>
+      <input placeholder='Name' ng-model='userForm.name'/>
+      <input placeholder='Image Url' ng-model='userForm.url'/>
+      <button type='submit'>Add New</button>
+</form>
+<ul class='User-list'>
+ <li ng-repeat='user in users'>
+     <avatar user='user' />
+ </li>
+</body>
+</html>
