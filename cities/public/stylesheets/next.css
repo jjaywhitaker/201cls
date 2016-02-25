@@ -1,0 +1,22 @@
+html {
+	background: url(http://stgeorgeweather.org/wp-content/uploads/2012/05/January-St-George-Utah-Weather.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	position: relative;
+	text-align: center;
+}
+
+#center {
+	position: absolute;
+	left: 38%;
+	top: 18%;
+	background-color: rgba(217, 217, 217, .5);
+	border: #999999 solid 2px;
+	padding: 15px;
+}
+

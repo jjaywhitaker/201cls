@@ -1,0 +1,35 @@
+.bulletin{
+	background-image: url(http://image.naldzgraphics.net/2012/06/13-Corkboard.jpg);
+	background-repeat: repeat-y;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 300px;
+	height: 100%;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+.map{
+	position: absolute;
+	right: 340px;
+	top: 80px;
+	bottom: 0px;
+}
+
+.map img{
+ width: 1000px;
+ height: 570px;	
+}
+
+.header{
+	color: grey;
+	background-color: navy;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 300px;
+}

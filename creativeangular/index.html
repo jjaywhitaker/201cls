@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="index.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="header">
+		<h1>Travel Board	Click the name of any country to Explore</h1>
+	</div>
+	<div ng-app='app' ng-controller='mainCtrl'>
+		<table>
+			<tr>
+				<td>
+					<div class="map">
+						<img id="myMap" src="europe.jpg" ng-onclick='addRandom()'>
+
+						<!-- I guess whatever happens here, we end up with the name of a country? -->
+
+					</div>
+				</td>
+				<td>
+					<div class="bulletin">
+						<h2>Pinned Countries</h2>
+						<ul class="country-posts">
+							<li ng-repeat='place in countries'>
+								<country  country='place'/>
+							</li>
+						</ul>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
