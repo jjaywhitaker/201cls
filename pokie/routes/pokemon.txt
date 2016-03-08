@@ -499,64 +499,194 @@
     "avatarUrl": "http://pokeapi.co/media/img/100.png"
   },
 {
-	"name": "Mew",
-	"num": "151",
-	"avatarUrl": "http://pokeapi.co/media/img/151.png"
+	"name": "Electrode",
+	"num": "101",
+	"avatarUrl": "http://pokeapi.co/media/img/101.png"
 },
 {
-	"name": "Mewtwo",
-	"num": "150",
-	"avatarUrl": "http://pokeapi.co/media/img/150.png"
+	"name": "Exeggcute",
+	"num": "102",
+	"avatarUrl": "http://pokeapi.co/media/img/102.png"
 },
 {
-	"name": "Dragonite",
-	"num": "149",
-	"avatarUrl": "http://pokeapi.co/media/img/149.png"
+	"name": "Exeggutor",
+	"num": "103",
+	"avatarUrl": "http://pokeapi.co/media/img/103.png"
 },
 {
-	"name": "Dragonair",
-	"num": "148",
-	"avatarUrl": "http://pokeapi.co/media/img/148.png"
+	"name": "Cubone",
+	"num": "104",
+	"avatarUrl": "http://pokeapi.co/media/img/104.png"
 },
 {
-	"name": "Dratini",
-	"num": "147",
-	"avatarUrl": "http://pokeapi.co/media/img/147.png"
+	"name": "Marowak",
+	"num": "105",
+	"avatarUrl": "http://pokeapi.co/media/img/105.png"
 },
 {
-	"name": "Moltres",
-	"num": "146",
-	"avatarUrl": "http://pokeapi.co/media/img/146.png"
+	"name": "Hitmonlee",
+	"num": "106",
+	"avatarUrl": "http://pokeapi.co/media/img/106.png"
 },
 {
-	"name": "Zapdos",
-	"num": "145",
-	"avatarUrl": "http://pokeapi.co/media/img/145.png"
+	"name": "Hitmonchan",
+	"num": "107",
+	"avatarUrl": "http://pokeapi.co/media/img/107.png"
+},
+{ 
+	"name": "Lickitung",
+	"num": "108",
+	"avatarUrl": "http://pokeapi.co/media/img/108.png"
 },
 {
-	"name": "Articuno",
-	"num": "144",
-	"avatarUrl": "http://pokeapi.co/media/img/144.png"
+	"name": "Koffing",
+	"num": "109",
+	"avatarUrl": "http://pokeapi.co/media/img/109.png"
 },
 {
-	"name": "Snorlax",
-	"num": "143",
-	"avatarUrl": "http://pokeapi.co/media/img/143.png"
+	"name": "Weezing",
+	"num": "110",
+	"avatarUrl": "http://pokeapi.co/media/img/110.png"
 },
 {
-	"name": "Aerodactyl",
-	"num": "142",
-	"avatarUrl": "http://pokeapi.co/media/img/142.png"
+	"name": "Ryhorn",
+	"num": "111",
+	"avatarUrl": "http://pokeapi.co/media/img/111.png"
 },
 {
-	"name": "Kabutops",
-	"num": "141",
-	"avatarUrl": "http://pokeapi.co/media/img/141.png"
+	"name": "Rhydon",
+	"num": "112",
+	"avatarUrl": "http://pokeapi.co/media/img/112.png"
 },
 {
-	"name": "Kabuto",
-	"num": "140",
-	"avatarUrl": "http://pokeapi.co/media/img/140.png"
+	"name": "Chansey",
+	"num": "113", 
+	"avatarUrl": "http://pokeapi.co/media/img/113.png"
+},
+{
+	"name": "Tangela",
+	"num": "114",
+	"avatarUrl": "http://pokeapi.co/media/img/114.png"
+},
+{
+	"name": "Kangaskhan",
+	"num": "115",
+	"avatarUrl": "http://pokeapi.co/media/img/115.png"
+},
+{
+	"name": "Horsea",
+	"num": "116",
+	"avatarUrl": "http://pokeapi.co/media/img/116.png"
+},
+{
+	"name": "Seadra",
+	"num": "117",
+	"avatarUrl": "http://pokeapi.co/media/img/117.png"
+},
+{
+	"name": "Goldeen",
+	"num": "118",
+	"avatarUrl": "http://pokeapi.co/media/img/118.png"
+},
+{
+	"name": "Seaking",
+	"num": "119",
+	"avatarUrl": "http://pokeapi.co/media/img/119.png"
+},
+{
+	"name": "Staryu",
+	"num": "120",
+	"avatarUrl": "http://pokeapi.co/media/img/120.png"
+},
+{
+	"name": "Starmine",
+	"num": "121",
+	"avatarUrl": "http://pokeapi.co/media/img/121.png"
+},
+{
+	"name": "Mr. Mime",
+	"num": "122",
+	"avatarUrl": "http://pokeapi.co/media/img/122.png"
+},
+{
+	"name": "Scyther",
+	"num": "123",
+	"avatarUrl": "http://pokeapi.co/media/img/123.png"
+},
+{
+	"name": "Jynx",
+	"num": "124",
+	"avatarUrl": "http://pokeapi.co/media/img/124.png"
+},
+{
+	"name": "Electabuzz",
+	"num": "125",
+	"avatarUrl": "http://pokeapi.co/media/img/125.png"
+},
+{
+	"name": "Magmar",
+	"num": "126",
+	"avatarUrl": "http://pokeapi.co/media/img/126.png"
+},
+{
+	"name": "Pinsir",
+	"num": "127",
+	"avatarUrl": "http://pokeapi.co/media/img/127.png"
+},
+{
+	"name": "Tauros",
+	"num": "128",
+	"avatarUrl": "http://pokeapi.co/media/img/128.png"
+},
+{
+	"name": "Magikarp",
+	"num": "129",
+	"avatarUrl": "http://pokeapi.co/media/img/129.png"
+},
+{
+	"name": "Gyarados",
+	"num": "130",
+	"avatarUrl": "http://pokeapi.co/media/img/130.png"
+},
+{
+	"name": "Lapras",
+	"num": "131",
+	"avatarUrl": "http://pokeapi.co/media/img/131.png"
+},
+{
+	"name": "Ditto",
+	"num": "132",
+	"avatarUrl": "http://pokeapi.co/media/img/132.png"
+},
+{
+	"name": "Eevee",
+	"num": "133",
+	"avatarUrl": "http://pokeapi.co/media/img/133.png"
+},
+{
+	"name": "Vaporeon",
+	"num": "134",
+	"avatarUrl": "http://pokeapi.co/media/img/134.png"
+},
+{
+	"name": "Jolteon",
+	"num": "135",
+	"avatarUrl": "http://pokeapi.co/media/img/135.png"
+},
+{
+	"name": "Flareon",
+	"num": "136",
+	"avatarUrl": "http://pokeapi.co/media/img/136.png"
+},
+{
+	"name": "Porygon",
+	"num": "137",
+	"avatarUrl": "http://pokeapi.co/media/img/137.png"
+},
+{
+	"name": "Omanyte",
+	"num": "138",
+	"avatarUrl": "http://pokeapi.co/media/img/138.png"
 },
 {
 	"name": "Omastar",
@@ -564,229 +694,63 @@
 	"avatarUrl": "http://pokeapi.co/media/img/139.png"
 },
 {
-	"name": "Omanyte",
-	"num": "138",
-	"avatarUrl": "http://pokeapi.co/media/img/138.png"
-},
-
-{
-	"name": "Porygon",
-	"num": "137",
-	"avatarUrl": "http://pokeapi.co/media/img/137.png"
-},
-
-{
-	"name": "Flareon",
-	"num": "136",
-	"avatarUrl": "http://pokeapi.co/media/img/136.png"
-},
-
-{
-	"name": "Jolteon",
-	"num": "135",
-	"avatarUrl": "http://pokeapi.co/media/img/135.png"
-},
-
-{
-	"name": "Vaporeon",
-	"num": "134",
-	"avatarUrl": "http://pokeapi.co/media/img/134.png"
-},
-
-{
-	"name": "Eevee",
-	"num": "133",
-	"avatarUrl": "http://pokeapi.co/media/img/133.png"
-},
-
-{
-	"name": "Ditto",
-	"num": "132",
-	"avatarUrl": "http://pokeapi.co/media/img/132.png"
-},
-
-{
-	"name": "Lapras",
-	"num": "131",
-	"avatarUrl": "http://pokeapi.co/media/img/131.png"
-},
-
-{
-	"name": "Gyarados",
-	"num": "130",
-	"avatarUrl": "http://pokeapi.co/media/img/130.png"
-},
-
-{
-	"name": "Magikarp",
-	"num": "129",
-	"avatarUrl": "http://pokeapi.co/media/img/129.png"
-},
-
-{
-	"name": "Tauros",
-	"num": "128",
-	"avatarUrl": "http://pokeapi.co/media/img/128.png"
-},
-
-{
-	"name": "Pinsir",
-	"num": "127",
-	"avatarUrl": "http://pokeapi.co/media/img/127.png"
-},
-
-{
-	"name": "Magmar",
-	"num": "126",
-	"avatarUrl": "http://pokeapi.co/media/img/126.png"
-},
-
-{
-	"name": "Electabuzz",
-	"num": "125",
-	"avatarUrl": "http://pokeapi.co/media/img/125.png"
-},
-
-{
-	"name": "Jynx",
-	"num": "124",
-	"avatarUrl": "http://pokeapi.co/media/img/124.png"
-},
-
-{
-	"name": "Scyther",
-	"num": "123",
-	"avatarUrl": "http://pokeapi.co/media/img/123.png"
-},
-
-{
-	"name": "Mr. Mime",
-	"num": "122",
-	"avatarUrl": "http://pokeapi.co/media/img/122.png"
-},
-
-{
-	"name": "Starmine",
-	"num": "121",
-	"avatarUrl": "http://pokeapi.co/media/img/121.png"
-},
-
-{
-	"name": "Staryu",
-	"num": "120",
-	"avatarUrl": "http://pokeapi.co/media/img/120.png"
-},
-
-{
-	"name": "Seaking",
-	"num": "119",
-	"avatarUrl": "http://pokeapi.co/media/img/119.png"
-},
-
-{
-	"name": "Goldeen",
-	"num": "118",
-	"avatarUrl": "http://pokeapi.co/media/img/118.png"
-},
-
-{
-	"name": "Seadra",
-	"num": "117",
-	"avatarUrl": "http://pokeapi.co/media/img/117.png"
-},
-
-{
-	"name": "Horsea",
-	"num": "116",
-	"avatarUrl": "http://pokeapi.co/media/img/116.png"
-},
-
-{
-	"name": "Kangaskhan",
-	"num": "115",
-	"avatarUrl": "http://pokeapi.co/media/img/115.png"
-},
-
-{
-	"name": "Tangela",
-	"num": "114",
-	"avatarUrl": "http://pokeapi.co/media/img/114.png"
-},
-
-{
-	"name": "Chansey",
-	"num": "113", 
-	"avatarUrl": "http://pokeapi.co/media/img/113.png"
-},
-
-{
-	"name": "Rhydon",
-	"num": "112",
-	"avatarUrl": "http://pokeapi.co/media/img/112.png"
-},
-
-{
-	"name": "Ryhorn",
-	"num": "111",
-	"avatarUrl": "http://pokeapi.co/media/img/111.png"
-},
-
-{
-	"name": "Weezing",
-	"num": "110",
-	"avatarUrl": "http://pokeapi.co/media/img/110.png"
-},
-
-{
-	"name": "Koffing",
-	"num": "109",
-	"avatarUrl": "http://pokeapi.co/media/img/109.png"
-},
-
-{ 
-	"name": "Lickitung",
-	"num": "108",
-	"avatarUrl": "http://pokeapi.co/media/img/108.png"
-},
-
-{
-	"name": "Hitmonchan",
-	"num": "107",
-	"avatarUrl": "http://pokeapi.co/media/img/107.png"
-},
-
-{
-	"name": "Hitmonlee",
-	"num": "106",
-	"avatarUrl": "http://pokeapi.co/media/img/106.png"
-},
-
-{
-	"name": "Marowak",
-	"num": "105",
-	"avatarUrl": "http://pokeapi.co/media/img/105.png"
+	"name": "Kabuto",
+	"num": "140",
+	"avatarUrl": "http://pokeapi.co/media/img/140.png"
 },
 {
-	"name": "Cubone",
-	"num": "104",
-	"avatarurl": "http://pokeapi.co/media/img/104.png"
+	"name": "Kabutops",
+	"num": "141",
+	"avatarUrl": "http://pokeapi.co/media/img/141.png"
 },
 {
-	"name": "Exeggutor",
-	"num": "103",
-	"avatarurl": "http://pokeapi.co/media/img/103.png"
-},
-
-{
-	"name": "Exeggcute",
-	"num": "102",
-	"avatarurl": "http://pokeapi.co/media/img/102"
+	"name": "Aerodactyl",
+	"num": "142",
+	"avatarUrl": "http://pokeapi.co/media/img/142.png"
 },
 {
-	"name": "Electrode",
-	"num": "101",
-	"avatarurl": "http://pokeapi.co/media/img/101.png"
+	"name": "Snorlax",
+	"num": "143",
+	"avatarUrl": "http://pokeapi.co/media/img/143.png"
+},
+{
+	"name": "Articuno",
+	"num": "144",
+	"avatarUrl": "http://pokeapi.co/media/img/144.png"
+},
+{
+	"name": "Zapdos",
+	"num": "145",
+	"avatarUrl": "http://pokeapi.co/media/img/145.png"
+},
+{
+	"name": "Moltres",
+	"num": "146",
+	"avatarUrl": "http://pokeapi.co/media/img/146.png"
+},
+{
+	"name": "Dratini",
+	"num": "147",
+	"avatarUrl": "http://pokeapi.co/media/img/147.png"
+},
+{
+	"name": "Dragonair",
+	"num": "148",
+	"avatarUrl": "http://pokeapi.co/media/img/148.png"
+},
+{
+	"name": "Dragonite",
+	"num": "149",
+	"avatarUrl": "http://pokeapi.co/media/img/149.png"
+},
+{
+	"name": "Mewtwo",
+	"num": "150",
+	"avatarUrl": "http://pokeapi.co/media/img/150.png"
+},
+{
+	"name": "Mew",
+	"num": "151",
+	"avatarUrl": "http://pokeapi.co/media/img/151.png"
 }
-
-
 ]

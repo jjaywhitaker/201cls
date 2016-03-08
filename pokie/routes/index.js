@@ -11,7 +11,7 @@ router.get('/', function(req, res, next) {
 
 
 router.get('/pokemon',function(req, res){
-console.log("In Pokemon");
+//console.log("In Pokemon");
 var pokemon;
 fs.readFile(__dirname + '/pokemon.txt', 'utf8', function (err, data) {
    if (err) {
@@ -19,12 +19,12 @@ fs.readFile(__dirname + '/pokemon.txt', 'utf8', function (err, data) {
    }
    var obj =[];
    obj = JSON.parse(data);
-   console.log(obj[1]);
-   console.log("end");
+   //console.log(obj[1]);
+   //console.log("end");
    pokemon = obj;
    res.send(obj);
 });
-console.log(pokemon);
+//console.log(pokemon);
 
 });
 

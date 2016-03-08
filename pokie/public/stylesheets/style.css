@@ -28,9 +28,12 @@ div, ul {
   flex-wrap: wrap;
 }
 
-.h1 {
-  margin: 0;
-  color: grey;
+.heading{
+  position: relative;
+}
+
+.heading2{
+  position: relative;
 }
 
 .pokemon {
@@ -42,9 +45,50 @@ div, ul {
   height: 100px;
 }
 
+.guess {
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  right: 670px;
+  top: 170px;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+}
+
+body {
+background-color: #4FC1E9;
+}
+
 .list {
   text-align: center;
-  list-style: none;
-  background-color: #4FC1E9;
+  list-style: none; 
   color: white;
+}
+
+.bg {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+    background-color: red; /* Green */
+    border: 5px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+. drop {
+  color: black;
+}
+
+. menu {
+  position: absolute;
+  top: 500px;
 }

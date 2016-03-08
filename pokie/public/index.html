@@ -3,27 +3,51 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
 <script src="./javascripts/app.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  
+
 <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
   <meta charset="utf-8">
-  <title>Node api tutorial</title>
+  <title>Pokemon</title>
 </head>
 <body>
-
+   <div class = 'list center stretch'>
+ <h1 class="heading">Pokemon Quiz</h1>
+ 
   <div id='app' ng-app='app' ng-controller='mainCtrl'>
-
-    <div ng-if='!pokemon.length' class='no-pokemon center stretch'>
-      <h1 class='h1'>
-        Set up your endpoint at `/pokemon` to get this view working
-      </h1>
+<h2 class="heading2"> Guess the name of the pokemon</h2>
+    
+    <img class='guess' ng-src="{{pokemon[myPoke-1].avatarUrl}}"/>
+    <img class='bg' src="http://i1.ytimg.com/vi/8phljgWT8zU/hqdefault.jpg">
+    
+<br><div class = "menu">
+    <select class="drop" ng-model="nameSelect" ng-options="pokemon as pokemon.name for pokemon in pokemon">
+	<option value=''>-Pokemon Name-</option>
+    </select>
+    <button class="button" ng-if="pokemon.name!=''" type='submit' ng-click="check(pokemon[myPoke-1].name, nameSelect.name)">It is this pokemon!</button>
+    <br>
+    <div class ="modal" modal="showModal" ng-show="showModal">
+        <h1>{{"It's " + pokemon[myPoke-1].name}}</h1>
+        <h2 type = "number">{{'#' + pokemon[myPoke-1].num}}</h2>
+	<h2>You {{result}}!</h2>
+	<button class="button" onClick="reload()">Try Again</button>
     </div>
+<br> 
+<button class="button" ng-click="pokedex()" id="show">Show Pokedex</button> <br>
+   <div class="modal" modal="showModal2" ng-show="showModal2">
+    <button class="button" ng-click="close()">Hide Pokedex</button>
+    <ul ng-if='pokemon.length' class='list center stretch'>  
 
-    <ul ng-if='pokemon.length' class='list center stretch'>
-      <li ng-repeat='p in pokemon' class='pokemon'>
-        <h1>{{ p.name }}</h1>
+      <li ng-repeat="p in pokemon | orderBy: 'num'" class='pokemon'>
+        <h2>{{ p.name }}</h2>
         <img class='avatar' ng-src="{{p.avatarUrl}}" />
- 	<h2>{{'#' + p.num}}</h2>
+ 	<h2 type = "number">{{'#' + p.num}}</h2>
       </li>
+      
     </ul>
+    </div>
+    </div>
+   </div>
 
   </div>
 
