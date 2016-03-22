@@ -46,18 +46,23 @@ div, ul {
 }
 
 .guess {
-  position: absolute;
+  position: relative;
   margin-right: auto;
   margin-left: auto;
-  right: 670px;
-  top: 170px;
+  /*right: 670px;
+  top: 170px;*/
   z-index: 3;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 
 body {
-background-color: #4FC1E9;
+/*background-color: #4FC1E9;*/
+  background: url(http://images.designtrends.com/wp-content/uploads/2015/11/06043811/Pokemon-Background-Designs40.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .list {
@@ -91,4 +96,36 @@ background-color: #4FC1E9;
 . menu {
   position: absolute;
   top: 500px;
+}
+
+.login {
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  right: 670px;
+  top: 170px;
+  z-index: 5;
+}
+
+#scoreBoard {
+  top: 40px;
+  position: absolute;
+  z-index: 3;
+  left: 50px;
+  color: white;
+  border-style: solid;
+  border-color: white;
+}
+
+table {
+  text-align: left;
+}
+
+tbody {
+  height: 200px;
+  overflow-y: auto;
+}
+
+th, td {
+  padding: 8px;
 }

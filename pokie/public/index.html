@@ -3,22 +3,53 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
 <script src="./javascripts/app.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>  
 
 <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
   <meta charset="utf-8">
   <title>Pokemon</title>
 </head>
 <body>
-   <div class = 'list center stretch'>
+
+<div class = 'list center stretch'>
+   <div id='app' ng-app='app' ng-controller='mainCtrl'>
+<div class = 'login' modal = "showModal3" ng-show="showModal3">
+  <h2>Welcome Trainer!</h2>
+  <form>
+    Please Enter Your Name: <br>
+    <input type = "text" id = "username">
+    <button id = "logButton" type = "submit" ng-click = "finishLogin()">Submit</button>
+  </form>
+</div>
+   <div class = 'page' modal = "showModal4" ng-show = "showModal4">
  <h1 class="heading">Pokemon Quiz</h1>
- 
-  <div id='app' ng-app='app' ng-controller='mainCtrl'>
-<h2 class="heading2"> Guess the name of the pokemon</h2>
+
+ <div id = "scoreBoard">
+ 	<h3>High Scores</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Place</th>
+        <th>Name</th> 
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat= "score in scores | orderBy: '-Score' | limitTo:10">
+      	<td>{{$index+1}}</td>
+        <td>{{score.Name}}</td>
+        <td>{{score.Score}}</td>
+      </tr>
+    </tbody>
+  </table>
+ 	<!-- <button id="getThem">Get High Scores</button> -->
+	<div id="myScores"></div>
+ </div>
+  
+<h2 class="heading2"> Welcome {{username}}, how many pokemon can you guess in a row?</h2>
     
     <img class='guess' ng-src="{{pokemon[myPoke-1].avatarUrl}}"/>
-    <img class='bg' src="http://i1.ytimg.com/vi/8phljgWT8zU/hqdefault.jpg">
+    <!-- <img class='bg' src="http://i1.ytimg.com/vi/8phljgWT8zU/hqdefault.jpg"> -->
     
 <br><div class = "menu">
     <select class="drop" ng-model="nameSelect" ng-options="pokemon as pokemon.name for pokemon in pokemon">
@@ -29,8 +60,8 @@
     <div class ="modal" modal="showModal" ng-show="showModal">
         <h1>{{"It's " + pokemon[myPoke-1].name}}</h1>
         <h2 type = "number">{{'#' + pokemon[myPoke-1].num}}</h2>
-	<h2>You {{result}}!</h2>
-	<button class="button" onClick="reload()">Try Again</button>
+	<h2>You {{result}}! That's {{numWins}} in a row!</h2>
+	<button class="button" ng-click="newPoke()">Go Again!</button>
     </div>
 <br> 
 <button class="button" ng-click="pokedex()" id="show">Show Pokedex</button> <br>
@@ -47,6 +78,7 @@
     </ul>
     </div>
     </div>
+   </div>
    </div>
 
   </div>
