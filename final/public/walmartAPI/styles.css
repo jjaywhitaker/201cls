@@ -1,0 +1,58 @@
+.fb-root{
+    width:20%;
+  }
+  a{
+    color:white;
+  }
+  #result
+  {
+     
+       background-repeat: no-repeat;
+        width:55%;
+        height:500px;
+        float:right;
+        font-size: 30px;       
+  }
+  #title
+  {
+      float:right;
+      font-size: 40px;
+  }
+  .logo{
+    position: relative;
+    display:inline;
+    padding: 10px;
+  }
+  #social{
+    width:25%;
+    height:500px;
+   
+  }
+  body{
+   
+   background-size: 120%;
+   background-image: url("http://p1.pichost.me/i/17/1398213.jpg");
+  }
+  #bothboxes
+  {
+    
+        margin: 0 auto; 
+
+    max-width: 50%;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+.content {
+    width:100%;
+    background-image: url("https://www.walmartbrandcenter.com/uploadedImages/BrandCenter/Content/downloads/Logos/specifications/specifications-logo3.jpg?n=2187");
+    height: 100px;
+     border: 1px solid #CCC;
+    margin: 2px auto;
+  }
+  #dropdown
+  {
+    font-size: 17px;
+      
+  }
